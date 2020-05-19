@@ -36,6 +36,7 @@ const App = () => {
     <div className="App">
       <form onSubmit={getSearch} className="search-form">
         <input
+    placeholder="Search for your recipe"
           className="search-bar"
           type="text"
           value={search}
